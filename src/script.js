@@ -1,6 +1,6 @@
 
-var age = 18;
+var myName;
 
-age = 30;
+var MyName;
 
-console.log(age);
+var my_name;
