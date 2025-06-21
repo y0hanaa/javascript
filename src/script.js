@@ -1,6 +1,19 @@
 
-var myName;
+// string
+var name = "Yoh"; 
+var surname = 'Pinheiro';
 
-var MyName;
+// number
+var age = 18;
+var weight = 85.6;
 
-var my_name;
+// boolean
+var active = true;
+var permission = false;
+
+// undefined
+var contains;
+console.log(contains);
+
+// null
+var data = null;

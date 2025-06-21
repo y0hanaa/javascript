@@ -143,7 +143,7 @@ var $number;
 ~~~ javascript
 ./src/script.js
 
-// "number" é diferente de "Nunber"
+// "number" é diferente de "Number"
 
 ~~~
 
@@ -160,5 +160,33 @@ var MyName;
 
 // snake case
 var my_name;
+
+~~~
+
+## TIPOS DE DADOS
+
+### Primitivos
+
+~~~ javascript
+./src/script.js
+
+// string
+var name = "Yoh"; 
+var surname = 'Pinheiro';
+
+// number
+var age = 18;
+var weight = 85.6;
+
+// boolean
+var active = true;
+var permission = false;
+
+// undefined
+var contains;
+console.log(contains);
+
+// null
+var data = null;
 
 ~~~
