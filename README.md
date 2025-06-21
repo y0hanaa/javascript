@@ -74,3 +74,48 @@
 /** 
  * Comentário de bloco com marcador
 */
+
+~~~ 
+
+
+
+## VARIÁVEIS
+
+### Declaração
+
+~~~ javascript
+./src/script.js
+
+var number;
+
+~~~
+
+### Atribuição de valor
+
+~~~ javascript
+./src/script.js
+
+var number;
+
+number = 5;
+
+~~~
+
+### Declaração e atribuição de valor
+
+~~~ javascript
+./src/script.js
+
+number = 5;
+
+~~~
+
+### Reatribuição de valor
+~~~ javascript
+./src/script.js
+
+var number = 5;
+
+number = 10;
+
+~~~
