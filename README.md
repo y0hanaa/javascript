@@ -190,3 +190,25 @@ console.log(contains);
 var data = null;
 
 ~~~
+
+### Não Primitivos
+
+~~~ javascript
+./src/script.js
+
+// array
+ var values = [1, Yoh, true, null];
+
+// Object literal
+var person = {name: "Yoh", age:18};
+
+var person = {
+    name: "Yoh",
+    age: 18
+};
+
+// function
+
+var message = function(){};
+
+~~~
