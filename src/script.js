@@ -1,16 +1,9 @@
 
-var light = "green";
+do {
+    console.log("executou.");
+} while (2 < 0)
 
-switch (light) {
-    case "red":
-        console.log("Stop!");
-        break
-    case "yellow":
-        console.log("attention!");
-        break
-    case "green":
-        console.log("go!");
-        break
-    default:
-        console.log("invalid color.");
+while (2 < 0) {
+    console.log("executou.");
 }
+
