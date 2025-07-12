@@ -1,19 +1,8 @@
 
-// string
-var name = "Yoh"; 
-var surname = 'Pinheiro';
+//
+//if (5 < 2 );
+//console.log ("verdadeiro");
 
-// number
-var age = 18;
-var weight = 85.6;
+var licensed = false;
 
-// boolean
-var active = true;
-var permission = false;
-
-// undefined
-var contains;
-console.log(contains);
-
-// null
-var data = null;
+!licensed && console.log("Precisa tirar carta de habilitação"); 

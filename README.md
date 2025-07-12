@@ -211,4 +211,76 @@ var person = {
 
 var message = function(){};
 
-~~~
+
+## Estruturas de controle de fluxo
+
+### Estruturas condicionais
+
+### Truthy and Falsy
+
+- **Truthy**: tudo que não for **falsy**
+
+- **Falsy**: "", 0, false, undefined, null, NaN;
+
+#### IF
+
+~~~ javascript
+./src/script.js
+
+if (5 == "5") {
+    console.log("Executou");
+}
+
+~~~ 
+
+#### Else
+
+~~~ javascript
+./src/script.js
+
+if (5 == "5") {
+    console.log("Verdadeiro.");
+} else {
+    console.log("falso.");
+}
+
+~~~ 
+
+#### Else if
+
+~~~ javascript
+./src/script.js
+
+var age = 65;
+
+if (age > 60) {
+    console.log("Aposentado.");
+} else if (age > 30){
+    console.log("CLT.");
+} else {
+    console.log("Colleger.");
+}
+
+~~~ 
+
+#### Operador ternário
+
+~~~ javascript
+./src/javascript.js
+
+var age = 16;
+
+age >= 18 ? console.log("Adult) : console.log("Minor);
+
+~~~ 
+
+#### Curto-circuito lógico
+
+~~~ javascript
+./src/javascript.js
+
+var licensed = false;
+
+!licensed && console.log("Precisa tirar carta de habilitação"); 
+
+~~~ 
