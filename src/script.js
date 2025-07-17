@@ -1,12 +1,13 @@
 
-// string
-var name = "Yoh"; 
-var surname = 'Pinheiro';
+do {
+    console.log("executou.");
+} while (2 < 0)
 
-// number
-var age = 18;
-var weight = 85.6;
+while (2 < 0) {
+    console.log("executou.");
+}
 
+<<<<<<< HEAD
 // boolean
 var active = true;
 var permission = false;
@@ -19,3 +20,5 @@ console.log(contains);
 var data = null;
 
 
+=======
+>>>>>>> 5ce263a5f9e62f4db080d30682bafdcc6a2a5e6b

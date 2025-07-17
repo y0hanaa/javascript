@@ -346,6 +346,7 @@ console.log(contains);
 // null
 var data = null;
 
+<<<<<<< HEAD
 ```
 
 ### Não primitivos
@@ -558,22 +559,68 @@ console.log(!active);
 - **falsy**: "", 0, false, undefined, null, NaN
 
 #### if
+=======
+~~~
+
+### Não Primitivos
+
+~~~ javascript
+./src/script.js
+
+// array
+ var values = [1, Yoh, true, null];
+
+// Object literal
+var person = {name: "Yoh", age:18};
+
+var person = {
+    name: "Yoh",
+    age: 18
+};
+
+// function
+
+var message = function(){};
+
+
+## Estruturas de controle de fluxo
+
+### Estruturas condicionais
+
+### Truthy and Falsy
+
+- **Truthy**: tudo que não for **falsy**
+
+- **Falsy**: "", 0, false, undefined, null, NaN;
+
+#### IF
+>>>>>>> 5ce263a5f9e62f4db080d30682bafdcc6a2a5e6b
 
 ~~~ javascript
 ./src/script.js
 
 if (5 == "5") {
+<<<<<<< HEAD
   console.log("Executou.");
 }
 
 ~~~
 
 #### else
+=======
+    console.log("Executou");
+}
+
+~~~ 
+
+#### Else
+>>>>>>> 5ce263a5f9e62f4db080d30682bafdcc6a2a5e6b
 
 ~~~ javascript
 ./src/script.js
 
 if (5 == "5") {
+<<<<<<< HEAD
   console.log("Verdadeiro.");
 } else {
   console.log("Falso.");
@@ -582,6 +629,16 @@ if (5 == "5") {
 ~~~
 
 #### else if
+=======
+    console.log("Verdadeiro.");
+} else {
+    console.log("falso.");
+}
+
+~~~ 
+
+#### Else if
+>>>>>>> 5ce263a5f9e62f4db080d30682bafdcc6a2a5e6b
 
 ~~~ javascript
 ./src/script.js
@@ -589,6 +646,7 @@ if (5 == "5") {
 var age = 65;
 
 if (age > 60) {
+<<<<<<< HEAD
   console.log("Aposentado.");
 } else if (age > 30) {
   console.log("CLT.");
@@ -597,6 +655,16 @@ if (age > 60) {
 }
 
 ~~~
+=======
+    console.log("Aposentado.");
+} else if (age > 30){
+    console.log("CLT.");
+} else {
+    console.log("Colleger.");
+}
+
+~~~ 
+>>>>>>> 5ce263a5f9e62f4db080d30682bafdcc6a2a5e6b
 
 #### Operador ternário
 
@@ -605,9 +673,15 @@ if (age > 60) {
 
 var age = 16;
 
+<<<<<<< HEAD
 age >= 18 ? console.log("Adult") : console.log("Minor.");
 
 ~~~
+=======
+age >= 18 ? console.log("Adult) : console.log("Minor);
+
+~~~ 
+>>>>>>> 5ce263a5f9e62f4db080d30682bafdcc6a2a5e6b
 
 #### Curto-circuito lógico
 
@@ -616,11 +690,19 @@ age >= 18 ? console.log("Adult") : console.log("Minor.");
 
 var licensed = false;
 
+<<<<<<< HEAD
 !licensed && console.log("Precisa tirar a carta de habilitação.");
 
 ~~~
 
 #### switch case
+=======
+!licensed && console.log("Precisa tirar carta de habilitação"); 
+
+~~~ 
+#### Switch case
+
+>>>>>>> 5ce263a5f9e62f4db080d30682bafdcc6a2a5e6b
 ~~~ javascript
 ./src/javascript.js
 
@@ -629,6 +711,7 @@ var light = "green";
 switch (light) {
     case "red":
         console.log("Stop!");
+<<<<<<< HEAD
         break;
     case "yellow":
         console.log("Attention!");
@@ -645,17 +728,42 @@ switch (light) {
 ### Estruturas de Repetição
 
 #### for
+=======
+        break
+    case "yellow":
+        console.log("attention!");
+        break
+    case "green":
+        console.log("go!");
+        break
+    default:
+        console.log("invalid color.");
+}
+~~~ 
+
+### Estruturas de repetição
+
+#### For
+>>>>>>> 5ce263a5f9e62f4db080d30682bafdcc6a2a5e6b
 
 ~~~ javascript
 ./src/script.js
 
 for (var n = 0; n <= 5; n++) {
+<<<<<<< HEAD
   console.log("Number: " + n);
+=======
+    console.log("Number:" + n);
+>>>>>>> 5ce263a5f9e62f4db080d30682bafdcc6a2a5e6b
 }
 
 ~~~
 
+<<<<<<< HEAD
 #### while
+=======
+#### While
+>>>>>>> 5ce263a5f9e62f4db080d30682bafdcc6a2a5e6b
 
 ~~~ javascript
 ./src/script.js
@@ -663,13 +771,22 @@ for (var n = 0; n <= 5; n++) {
 var n = 0;
 
 while (n <= 5) {
+<<<<<<< HEAD
   console.log("Number: " + n);
   n++;
+=======
+    console.log("Number:" + n);
+    n++;
+>>>>>>> 5ce263a5f9e62f4db080d30682bafdcc6a2a5e6b
 }
 
 ~~~
 
+<<<<<<< HEAD
 #### do while
+=======
+#### Do while
+>>>>>>> 5ce263a5f9e62f4db080d30682bafdcc6a2a5e6b
 
 ~~~ javascript
 ./src/script.js
@@ -677,7 +794,13 @@ while (n <= 5) {
 var n = 10;
 
 do {
+<<<<<<< HEAD
   console.log("Executed at least once.");
 } while (n < 5)
 
 ~~~
+=======
+    console.log("Executed at least once");
+} while (n < 5)
+~~~
+>>>>>>> 5ce263a5f9e62f4db080d30682bafdcc6a2a5e6b
